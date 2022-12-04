@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+#consola {
+    width: 100%;
+}
+
+#outer {
+    margin: 0;
+    border: 100%;
+    height: 4em;
+    position: static;
+}
+
+#inner {
+
+    width: 26%;
+    height: 71%;
+    position: absolute;
+    top: 5em;
+    left: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@media (max-width:1920px) {
+    #pokeImg {
+        width: 100%;
+    }
+
+    #outer {
+        margin: 0;
+        border: 100%;
+        height: 4em;
+        position: static;
+    }
+
+    #inner {
+
+        width: 28%;
+        height: 18%;
+        position: absolute;
+        top: 22em;
+        left: 45em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width:1280px) {
+    #pokeImg {
+        width: 100%;
+    }
+
+    #outer {
+        margin: 0;
+        border: 100%;
+        height: 4em;
+        position: static;
+    }
+
+    #inner {
+        width: 26%;
+        height: 47%;
+        position: absolute;
+        top: 4.5em;
+        left: 30em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width:768px) {
+    #pokeImg {
+        width: 100%;
+    }
+
+    #outer {
+        margin: 0;
+        border: 100%;
+        height: 100%;
+        position: static;
+    }
+
+    #inner {
+        width: 19%;
+        height: 26%;
+        position: absolute;
+        top: 2.5em;
+        left: 19em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width:450px) {
+    #pokeImg {
+        width: 100%;
+    }
+
+    #outer {
+        margin: 0;
+        border: 100%;
+        height: 4em;
+        position: static;
+    }
+
+    #inner {
+
+        width: 28%;
+        height: 18%;
+        position: absolute;
+        top: 1em;
+        left: 8em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: .5em;
+    }
+}
